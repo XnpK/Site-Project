@@ -14,7 +14,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -173,3 +173,37 @@ li.slick-active button {
     display: inline-block;
 }
 
+.textoDestaque {            /*Delimitei que tudo que estiver dentro da classe textoDestaque ira ficar alinhado no centro*/
+    text-align: center;
+}
+
+.textoDestaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(75, 75, 75);
+}
+
+.textoDestaque strong {
+    color: black;
+}
+
+.textoDestaque p {
+    font-size: 15px;
+    color: gray;
+}
+
+.col-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.blocoTexto {            /*Dei uma  diferença da margem para os textos*/
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important ;
+}
