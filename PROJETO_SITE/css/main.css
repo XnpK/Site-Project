@@ -1,0 +1,175 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important /*Tag important faz sobrescrever essa propriedade do navegador*/
+}
+
+.menuPrincipal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+.redesSociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redesSociais {
+    width: 20%;
+    float: right;
+}
+
+.header2 {
+    background-color: #e4dfec;
+    width: 980px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.menuURLS {
+    height: 80;
+    border-bottom: 3px solid #e4dff7;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: grey;
+    margin-left: 12px;
+    height: 40px;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid royalblue;
+}
+
+.menu ul li a:hover { /*Tag hover, muda a cor da letra qnd o mouse é passado em cima */
+    color: royalblue;
+}
+
+.menu ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 16px;
+    margin-top: 10px;
+    padding: 7px;
+    width: 190px;
+    border: 1px solid black;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/arrow-left.png');
+    top: 35%;
+    left: 15%;
+}
+
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/arrow-right.png');
+    top: 35%;
+    right: 15%;
+}
+
+/*
+ul.slick-dots li button {
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: royalblue;
+}
+*/
+
+.slick-initialized {                /*tira a barra de baixo de arrastar*/
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {                      /*Mudou a posição dos botões*/
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+
+li.slick-active button {
+    background: royalblue;
+}
+
+.slick-dots li {
+    padding-left: 10px;     /*Padding utilizado para fazer a separação dos objetos*/
+    display: inline-block;
+}
+
